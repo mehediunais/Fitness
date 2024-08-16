@@ -1,0 +1,396 @@
+/* inter font start */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+/* inter font end */
+/* shared styles  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-section,
+.hero-section,
+.habits,
+.run-extra,
+.our-team,
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header start */
+.header {
+    /* display: flex; */
+    background: black;
+}
+
+/* nav start  */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.nav-h2 {
+    color: rgba(230, 83, 60, 1);
+}
+
+.nav-h2 h2 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 43.2px;
+}
+
+.nav-menu {
+    border: 2px solid #ffffff6b;
+    padding: 16px 37px 16px 3px;
+    border-radius: 40px;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-ul li {
+    list-style: none;
+}
+
+#home {
+    background-color: #E6533C;
+    padding: 13px 36px;
+    border-radius: 40px;
+}
+
+.nav-ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* nav end */
+
+/* hero section start */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+
+.right-section {
+    padding: 70px 0;
+    width: 50%;
+}
+
+.hero-content {}
+
+.hero-title {
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 93.6px;
+    color: white;
+}
+
+.hero-description {
+    color: #FFFFFF80;
+    padding: 28px 0;
+}
+
+.hero-btn {}
+
+.btn-1 {
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    color: white;
+    background-color: #E6533C;
+    padding: 16px 46px;
+    margin-right: 10px;
+}
+
+.btn-2 {
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 42px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 16px 46px;
+}
+
+/* img section start  */
+.hero-img {
+    position: relative;
+}
+
+.img {
+    padding-right: 40px;
+}
+
+.img img {}
+
+.free-video {}
+
+.free {
+    position: absolute;
+    top: 157px;
+    right: 10px;
+    background-color: #FFFFFF1A;
+    padding: 17px 24px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+}
+
+.free h3 {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    color: white;
+}
+
+.free p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+}
+
+.video {
+    position: absolute;
+    bottom: 63px;
+    background-color: #FFFFFF1A;
+    padding: 17px 24px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+
+}
+
+.box {}
+
+.box img {}
+
+
+.box-content {}
+
+.box-content h3 {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.box-content p {
+    color: white;
+}
+
+/* img section end */
+
+/* hero section end */
+
+/* header end */
+
+/* main section start */
+.habits-section {
+    background-color: black;
+}
+
+.habits {
+    padding: 100px 0;
+}
+
+.habits-content {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.habits-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57.6px;
+    color: white;
+}
+
+.habits-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF80;
+    padding-top: 10px;
+    padding-bottom: 65px;
+}
+
+/* habit start  */
+.habits-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card1 {
+    text-align: center;
+}
+
+.card1 img {
+    border-radius: 50%;
+}
+
+.card1 h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 21px;
+    color: white;
+    padding: 25px 0 6px;
+    /* text-align: center; */
+}
+
+.card1 p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF80;
+}
+
+/* habit end */
+
+
+
+
+/* run extra section start  */
+.run-extra {
+    background-color: #222222;
+    border-radius: 15px;
+}
+
+.extra-miles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+    padding: 40px;
+}
+
+.run-content {
+    width: 50%;
+}
+
+.run-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57px;
+    color: white;
+}
+
+.run-description {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 14px 0 34px;
+    color: #FFFFFF80;
+}
+
+.run-btn {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 16px 71px;
+    color: white;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 42px;
+}
+
+.run-btn:hover {}
+
+.run-img {
+    width: 50%;
+}
+
+.run-img img {
+    width: 100%;
+    border-radius: 14px;
+
+}
+
+/* run extra section end */
+
+
+
+/* our team section start */
+.our-team-section {
+    padding: 100px 0 100px;
+}
+
+.our-team {}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 90px;
+}
+
+.our-team-content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.team-title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 57px;
+    color: #ffffff;
+}
+
+.team-description {
+    color: #FFFFFF80;
+}
+
+.our-team-cards {
+    position: relative;
+}
+
+.card-img {
+    width: 370px;
+    height: 270px;
+}
+
+.card-img img {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.card-name {}
+
+.card-name h4 {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    position: absolute;
+    bottom: -20px;
+    left: 15px;
+    color: white;
+}
+
+.card-name p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    position: absolute;
+    bottom: -40px;
+    left: 15px;
+    color: #FFFFFF80;
+}
+
+/* our team section end */
+
+
+
+/* main section end */
